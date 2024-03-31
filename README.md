@@ -40,7 +40,7 @@ Git
 
 ### Installation instruction
 ```
-Git clone https://github.com/Caren-Mwaka/CodeChallenge_WeekOne.git
+Git clone https://github.com/Caren-Mwaka/CodeChallenge_WeekTwo.git
 
 ```
 # Live Link
