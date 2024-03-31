@@ -26,30 +26,7 @@ console.log(arrayNumbers.filter(primeNumber));
 //The filter method is applied to numbersArray, and the primeNumbers function is passed as an argument to filter.
 //The filter method creates a new array containing only the elements of numbersArray 
 
-//An alternative stopping point for the for loop can be using the square root of the given number.
-//This is to reduce the number of iterations needed to check for prime numbers particularly when the numbers are too many.
-//for example if I have the number 7 its square root would be 2.6 I only need to check if 7 is divisible by number 2 to 3 where its square root lies. If not then it is automatically a prime number.
-//The Math.sqrt(number) part calculates the square root of the given number, and the loop iterates through numbers up to this square root reduc
-const numbersArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,] 
-
-function primeNumbers(number) {
-    
-    if (number <= 1) {
-        return null;
-    }
-
-    for (let i = 2; i <= Math.sqrt(number); i++) {
-        if (number % i === 0) {
-            return null;
-        }
-    }
-
-    return number;
-}
-
-console.log(numbersArray.filter(primeNumbers));
 
 /* My output: caren@caren-HP-ZBook-14u-G6:~/Development/code/codechallenge/CodeChallenge_WeekTwo$ node prime-numbers.js
-[ 2, 3, 5, 7 ]
 [ 2, 3, 5, 7 ]*/
 
